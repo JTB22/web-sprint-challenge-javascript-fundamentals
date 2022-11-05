@@ -17,7 +17,8 @@ function myFunction() {
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-/* The nested function can access the internal variable because of closure. const internal is defined in its parent function.
+/* 
+The nested function can access the internal variable because of closure. const internal is defined in its parent function.
 */
 
 
@@ -30,10 +31,13 @@ function myFunction() {
 💡 NOTE: you may use a for loop for this function if you wish 
 */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
-
+function summation(num) {
+  let result = 0;
+  for (let i = 1; i <= num; i++) {
+    result += i;
   }
+  return result;
+}
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
