@@ -17,8 +17,8 @@ function myFunction() {
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
-
+/* The nested function can access the internal variable because of closure. const internal is defined in its parent function.
+*/
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
