@@ -25,14 +25,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+.map - creates a copy of the passed array and returns a new array with the results of whatever function you pass into it.
+map would be used when you don't want to edit the original array but want use original with adjusted values.
+
+.reduce - takes a array and reduces it down to one value. How it is reduced is determined by the elements passed into the function.
+reduce could be used to find an average of an array of numbers or to find the total of an array of numbers.
+
+.filter - creates a copy of the passed through array and returns a new array with only the elements that pass the test defined in the function.
+filter could be used to find only the numbers greater than passing value and return a new array with only those numbers / objects.
 
 2. Explain the difference between a callback and a higher order function.
-
+A higher order function is a function that returns a function or takes a function in.
+A callback is a function that is passed into another function.
 3. Explain what a closure is.
+A closure is a function that can access variables from the parent in which it was created.
 
 4. Describe the four principles of the 'this' keyword.
+this is a reference to the object that is executing the current function.
+bind can be used to set this to a specific object.
+call or apply can be used to set this to a specific object with parameters.
+new can be used to create a new object with this set to the new object.
 
 5. Why do we need super() in an extended class?
+super() is used to pull the properties from the parent class, from which it is extended from.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
